@@ -1,4 +1,4 @@
-package com.commerce.unity;
+package com.github.SelvaSunilkumar.Commerce.Unity;
 
 public class Utility {
     public static String checkIfItWorks() {

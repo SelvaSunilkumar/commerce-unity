@@ -1,4 +1,4 @@
-package com.commerce.unity;
+package com.github.SelvaSunilkumar.Commerce.Unity;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,6 +8,8 @@ public class CommerceUnityApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(CommerceUnityApplication.class, args);
+
+        Utility.checkIfItWorks();
     }
 
 }

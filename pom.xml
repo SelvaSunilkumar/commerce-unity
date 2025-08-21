@@ -8,13 +8,13 @@
         <version>3.5.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.commerce.unity</groupId>
-    <artifactId>Commerce-unity</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>Commerce-unity</name>
+    <groupId>com.github.SelvaSunilkumar.Commerce.Unity</groupId>
+    <artifactId>commerce-unity</artifactId>
+    <version>0.0.4</version>
+    <name>Commerce unity</name>
     <packaging>jar</packaging>
     <description>Commerce-unity</description>
-    <url/>
+    <url>https://github.com/SelvaSunilkumar/commerce-unity</url>
     <licenses>
         <license/>
     </licenses>
@@ -33,12 +33,16 @@
 
     <distributionManagement>
         <repository>
-            <id>github</id>
-            <name>Commerce Unity</name>
-            <url>https://github.com/SelvaSunilkumar/commerce-unity</url>
+            <id>commerce-unity</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/SelvaSunilkumar/commerce-unity</url>
         </repository>
-    </distributionManagement>
+        <snapshotRepository>
+            <id>commerce-unity</id>
+            <url>https://maven.pkg.github.com/SelvaSunilkumar/commerce-unity</url>
+        </snapshotRepository>
 
+    </distributionManagement>
 
     <dependencies>
         <dependency>
