@@ -8,8 +8,6 @@ public class CommerceUnityApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(CommerceUnityApplication.class, args);
-
-        Utility.checkIfItWorks();
     }
 
 }
