@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.github.SelvaSunilkumar.Commerce.Unity</groupId>
     <artifactId>commerce-unity</artifactId>
-    <version>0.0.9</version>
+    <version>0.1.1</version>
     <name>Commerce unity</name>
     <packaging>jar</packaging>
     <description>Commerce-unity</description>
@@ -63,6 +63,20 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework.kafka/spring-kafka -->
+        <dependency>
+            <groupId>org.springframework.kafka</groupId>
+            <artifactId>spring-kafka</artifactId>
+            <version>4.0.0-M4</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.jspecify/jspecify -->
+        <dependency>
+            <groupId>org.jspecify</groupId>
+            <artifactId>jspecify</artifactId>
+            <version>1.0.0</version>
         </dependency>
     </dependencies>
 
